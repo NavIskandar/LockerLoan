@@ -1,6 +1,14 @@
 # LockerLoan
 A module for SLiMS
 
+# Whats New?
+
+1. ItemBatch Generator - Pemroses nomor barkode layaknya pada SLiMS 8 Akasia
+
+# Bug Fixing
+
+1. Error Authorize - Pada versi sebelumnya module ini hanya bisa digunakan oleh super admin, namun sekarang sudah diperbaiki
+
 # HowTO
 
 1. Buat folder locker_loan didalam folder admin/modules/
@@ -13,3 +21,10 @@ A module for SLiMS
    path modul diisi dengan locker_loan
    deskripsi diisi sesuai keinginan anda
 6. Tekan Save/Simpan
+
+# Note
+
+Enjoy with this module. Don't forget to give me report about bugs of this module. :)
+
+
+# Navis Kandar
