@@ -1,0 +1,25 @@
+// Ikuti instruksi dibawah ini :D
+// Copy paste skrip dibawa ini pada file admin/admin_template/printed_settings.inc.php 
+
+$sysconf['print']['labellocker']['label_per_row'] = 3;
+$sysconf['print']['labellocker']['logo'] = 'locker.svg';
+$sysconf['print']['labellocker']['fonts'] = "Arial, Verdana, Helvetica, 'Trebuchet MS'"; // font to use
+$sysconf['print']['labellocker']['font_size'] = 8;
+$sysconf['print']['labellocker']['font_color'] = '#3e3e3e'; // barcode scale in percent relative to box width and height
+$sysconf['print']['labellocker']['label_bg_color'] = 'lightgrey'; // barcode scale in percent relative to box width and height
+$sysconf['print']['labellocker']['label_height'] = 7.3; // in cm
+$sysconf['print']['labellocker']['label_width'] = 4; // in cm
+$sysconf['print']['labellocker']['img_height'] = 2.8; // in cm
+$sysconf['print']['labellocker']['img_width'] = 2.8; // in cm
+
+// tambahkan tulisan labellocker tepat di sebelah tulisan 'membercard' pada file admin/modules/bibliography/print_settings.php seperti contoh
+// berikut 
+
+if (!in_array($type, array('barcode', 'label', 'membercard', 'labellocker'))) {
+  $type = 'barcode';
+}
+
+// Untuk file locker_loan.sql bisa buka phpmyadmin lalu pilih database yang digunakan oleh slims lalu klik
+// tab import kalau klik tombol file, pilih file locker_loan.sql dan klik go.
+
+// file locker.svg pindahkan ke folder images/
