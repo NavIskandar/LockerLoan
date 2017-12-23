@@ -41,6 +41,7 @@ do_checkIP('smc');
 do_checkIP('smc-system');
 require SB.'admin/default/session_check.inc.php';
 require SIMBIO.'simbio_DB/simbio_dbop.inc.php';
+require MDLBS.'membership/member_base_lib.inc.php';
 require SIMBIO.'simbio_UTILS/simbio_date.inc.php';
 
 // transaction is finished
